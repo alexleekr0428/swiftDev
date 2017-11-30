@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Capital City Quiz/Controller/AppDelegate.swift"
+            timestampString = "533645656.723872"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Capital_City_Quiz.AppDelegate.__deallocating_deinit"
+                  moduleName = "Capital City Quiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexleekr/Desktop/app_dev/Capital%20City%20Quiz/Capital%20City%20Quiz/Controller/AppDelegate.swift"
+                  timestampString = "533312357.763994"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Capital_City_Quiz.AppDelegate.__allocating_init() -&gt; Capital_City_Quiz.AppDelegate"
+                  moduleName = "Capital City Quiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexleekr/Desktop/app_dev/Capital%20City%20Quiz/Capital%20City%20Quiz/Controller/AppDelegate.swift"
+                  timestampString = "533312357.767376"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Capital_City_Quiz.AppDelegate.init() -&gt; Capital_City_Quiz.AppDelegate"
+                  moduleName = "Capital City Quiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexleekr/Desktop/app_dev/Capital%20City%20Quiz/Capital%20City%20Quiz/Controller/AppDelegate.swift"
+                  timestampString = "533312357.768923"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Capital City Quiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexleekr/Desktop/app_dev/Capital%20City%20Quiz/Capital%20City%20Quiz/Controller/AppDelegate.swift"
+                  timestampString = "533312357.770771"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
