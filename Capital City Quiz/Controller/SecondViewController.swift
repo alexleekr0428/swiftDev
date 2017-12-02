@@ -54,12 +54,30 @@ class SecondViewController: UIViewController {
             ProgressHUD.showError("틀려요!")
         }
         
+        //Let's create a delay! So that user experience is better!
+        //First, let's disable the buttons
+        button1.isEnabled = false
+        button2.isEnabled = false
+        button3.isEnabled = false
+        button4.isEnabled = false
+        
+        // This is delay!
+        let when = DispatchTime.now() + 1 // change 2 to desired number of seconds
+        DispatchQueue.main.asyncAfter(deadline: when) {
+            // Your code with delay
+            self.button1.isEnabled = true
+            self.button2.isEnabled = true
+            self.button3.isEnabled = true
+            self.button4.isEnabled = true
+        }
+
         //Increase question number
         questionNumber += 1
         
         //Conditionals
         if questionNumber < allQuestions.list.count{
             update()
+
         }else{
             
             //After all the questions
@@ -73,8 +91,6 @@ class SecondViewController: UIViewController {
             button4.setTitle("", for: .normal)
         }
     }
-    
-    
     
     
     func update(){
