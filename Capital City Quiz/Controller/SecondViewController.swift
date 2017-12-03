@@ -32,6 +32,7 @@ class SecondViewController: UIViewController {
         update()
     
     }
+
     
     @IBAction func buttonPressed(_ sender: AnyObject) {
         
@@ -60,9 +61,9 @@ class SecondViewController: UIViewController {
         button2.isEnabled = false
         button3.isEnabled = false
         button4.isEnabled = false
-        
+
         // This is delay!
-        let when = DispatchTime.now() + 1 // change 2 to desired number of seconds
+        let when = DispatchTime.now() + 0.8 // change 2 to desired number of seconds
         DispatchQueue.main.asyncAfter(deadline: when) {
             // Your code with delay
             self.button1.isEnabled = true
@@ -93,6 +94,8 @@ class SecondViewController: UIViewController {
     }
     
     
+    
+    // Update, meaning updating the texts for buttons and questions
     func update(){
         //Initial view of question and answer
         questionText.text = allQuestions.list[questionNumber].country

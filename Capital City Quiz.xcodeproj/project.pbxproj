@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		023DBB671FD04B5D004E9B36 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 023DBB641FD04B5D004E9B36 /* ProgressHUD.m */; };
 		023DBB681FD04B5D004E9B36 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 023DBB651FD04B5D004E9B36 /* ProgressHUD.bundle */; };
+		023DBB6A1FD295B6004E9B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023DBB691FD295B6004E9B36 /* Assets.xcassets */; };
+		023DBB6C1FD4048F004E9B36 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023DBB6B1FD4048F004E9B36 /* CategoryViewController.swift */; };
 		0253B87D1FC99F230042AAA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0253B87C1FC99F230042AAA3 /* AppDelegate.swift */; };
 		0253B87F1FC99F230042AAA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0253B87E1FC99F230042AAA3 /* ViewController.swift */; };
 		0253B8821FC99F230042AAA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0253B8801FC99F230042AAA3 /* Main.storyboard */; };
-		0253B8841FC99F230042AAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0253B8831FC99F230042AAA3 /* Assets.xcassets */; };
 		0253B8871FC99F230042AAA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0253B8851FC99F230042AAA3 /* LaunchScreen.storyboard */; };
 		02D9280D1FCAF2E900CBAFEA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9280C1FCAF2E900CBAFEA /* SecondViewController.swift */; };
 		02D928131FCB073E00CBAFEA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D928121FCB073E00CBAFEA /* Question.swift */; };
@@ -24,11 +25,12 @@
 		023DBB641FD04B5D004E9B36 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = "../../ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.m"; sourceTree = "<group>"; };
 		023DBB651FD04B5D004E9B36 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = "../../ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.bundle"; sourceTree = "<group>"; };
 		023DBB661FD04B5D004E9B36 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = "../../ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.h"; sourceTree = "<group>"; };
+		023DBB691FD295B6004E9B36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		023DBB6B1FD4048F004E9B36 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		0253B8791FC99F230042AAA3 /* Capital City Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capital City Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0253B87C1FC99F230042AAA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0253B87E1FC99F230042AAA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0253B8811FC99F230042AAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0253B8831FC99F230042AAA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0253B8861FC99F230042AAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0253B8881FC99F230042AAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02D9280C1FCAF2E900CBAFEA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			children = (
 				0253B87C1FC99F230042AAA3 /* AppDelegate.swift */,
 				0253B87E1FC99F230042AAA3 /* ViewController.swift */,
+				023DBB6B1FD4048F004E9B36 /* CategoryViewController.swift */,
 				02D9280C1FCAF2E900CBAFEA /* SecondViewController.swift */,
 			);
 			path = Controller;
@@ -102,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				0253B8801FC99F230042AAA3 /* Main.storyboard */,
-				0253B8831FC99F230042AAA3 /* Assets.xcassets */,
+				023DBB691FD295B6004E9B36 /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,7 +172,7 @@
 			files = (
 				023DBB681FD04B5D004E9B36 /* ProgressHUD.bundle in Resources */,
 				0253B8871FC99F230042AAA3 /* LaunchScreen.storyboard in Resources */,
-				0253B8841FC99F230042AAA3 /* Assets.xcassets in Resources */,
+				023DBB6A1FD295B6004E9B36 /* Assets.xcassets in Resources */,
 				0253B8821FC99F230042AAA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +186,7 @@
 			files = (
 				023DBB671FD04B5D004E9B36 /* ProgressHUD.m in Sources */,
 				02D9280D1FCAF2E900CBAFEA /* SecondViewController.swift in Sources */,
+				023DBB6C1FD4048F004E9B36 /* CategoryViewController.swift in Sources */,
 				02D928131FCB073E00CBAFEA /* Question.swift in Sources */,
 				02D928171FCB1E3C00CBAFEA /* EuropeQuestionBank.swift in Sources */,
 				0253B87F1FC99F230042AAA3 /* ViewController.swift in Sources */,

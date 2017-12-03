@@ -15,9 +15,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        //Customizing navigation controller
+    navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
+        navigationItem.backBarButtonItem = UIBarButtonItem(title:"뒤로", style: .plain, target: nil, action: nil)
         
-        //Making the button shape rounder
-        startButton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {
