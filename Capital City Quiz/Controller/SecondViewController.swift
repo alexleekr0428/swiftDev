@@ -11,7 +11,7 @@ import UIKit
 class SecondViewController: UIViewController {
     
     @IBOutlet weak var questionText: UILabel!
-    @IBOutlet weak var questionAnswer: UILabel!
+    @IBOutlet weak var countryImage: UIImageView!
     @IBOutlet weak var button4: UIButton!
     @IBOutlet weak var button3: UIButton!
     @IBOutlet weak var button2: UIButton!
@@ -29,6 +29,11 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //setting border line to uiimage
+        countryImage.layer.borderWidth = 0.7
+        
+        //update
         update()
     
     }
@@ -83,8 +88,9 @@ class SecondViewController: UIViewController {
             
             //After all the questions
             questionText.text = "점수: \(score)/\(allQuestions.list.count)"
-            questionAnswer.text = ""
-            
+            countryImage.image = UIImage()
+            countryImage.layer.borderWidth = 0
+
             //Should I also make the multiple choices blank?
             button1.setTitle("", for: .normal)
             button2.setTitle("", for: .normal)
@@ -95,11 +101,11 @@ class SecondViewController: UIViewController {
     
     
     
-    // Update, meaning updating the texts for buttons and questions
+    // UPDATE, meaning updating the texts for buttons and questions
     func update(){
         //Initial view of question and answer
         questionText.text = allQuestions.list[questionNumber].country
-        questionAnswer.text = allQuestions.list[questionNumber].capitalCity
+        countryImage.image = UIImage(named: allQuestions.list[questionNumber].country)
         
         //Have to assign random number to other remaining buttons.
         senderRandom = Int(arc4random_uniform(4)) + 1

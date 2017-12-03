@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		023DBB671FD04B5D004E9B36 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 023DBB641FD04B5D004E9B36 /* ProgressHUD.m */; };
 		023DBB681FD04B5D004E9B36 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 023DBB651FD04B5D004E9B36 /* ProgressHUD.bundle */; };
-		023DBB6A1FD295B6004E9B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023DBB691FD295B6004E9B36 /* Assets.xcassets */; };
 		023DBB6C1FD4048F004E9B36 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023DBB6B1FD4048F004E9B36 /* CategoryViewController.swift */; };
+		023DBB701FD43189004E9B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023DBB6F1FD43189004E9B36 /* Assets.xcassets */; };
 		0253B87D1FC99F230042AAA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0253B87C1FC99F230042AAA3 /* AppDelegate.swift */; };
 		0253B87F1FC99F230042AAA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0253B87E1FC99F230042AAA3 /* ViewController.swift */; };
 		0253B8821FC99F230042AAA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0253B8801FC99F230042AAA3 /* Main.storyboard */; };
@@ -25,8 +25,8 @@
 		023DBB641FD04B5D004E9B36 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = "../../ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.m"; sourceTree = "<group>"; };
 		023DBB651FD04B5D004E9B36 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = "../../ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.bundle"; sourceTree = "<group>"; };
 		023DBB661FD04B5D004E9B36 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = "../../ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.h"; sourceTree = "<group>"; };
-		023DBB691FD295B6004E9B36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		023DBB6B1FD4048F004E9B36 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		023DBB6F1FD43189004E9B36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		0253B8791FC99F230042AAA3 /* Capital City Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capital City Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0253B87C1FC99F230042AAA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0253B87E1FC99F230042AAA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				0253B8801FC99F230042AAA3 /* Main.storyboard */,
-				023DBB691FD295B6004E9B36 /* Assets.xcassets */,
+				023DBB6F1FD43189004E9B36 /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,7 +172,7 @@
 			files = (
 				023DBB681FD04B5D004E9B36 /* ProgressHUD.bundle in Resources */,
 				0253B8871FC99F230042AAA3 /* LaunchScreen.storyboard in Resources */,
-				023DBB6A1FD295B6004E9B36 /* Assets.xcassets in Resources */,
+				023DBB701FD43189004E9B36 /* Assets.xcassets in Resources */,
 				0253B8821FC99F230042AAA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

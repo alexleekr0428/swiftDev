@@ -182,13 +182,10 @@
                                     <action selector="buttonPressed:" destination="hHK-QM-8gX" eventType="touchUpInside" id="f96-LX-TWU"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oj9-Be-Upz">
-                                <rect key="frame" x="8" y="183" width="359" height="214"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i6n-Xf-XEk">
+                                <rect key="frame" x="77" y="204" width="220" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="37"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="BN8-bI-z0r"/>
@@ -198,7 +195,7 @@
                         <outlet property="button2" destination="FVi-Ek-FlH" id="q4H-3s-Acf"/>
                         <outlet property="button3" destination="MvI-SN-7Bk" id="hJr-hl-mU7"/>
                         <outlet property="button4" destination="gex-L5-63C" id="pRb-OD-Q6b"/>
-                        <outlet property="questionAnswer" destination="oj9-Be-Upz" id="CXN-kr-zGL"/>
+                        <outlet property="countryImage" destination="i6n-Xf-XEk" id="okq-af-Rl2"/>
                         <outlet property="questionText" destination="xRx-2I-QJo" id="16X-q8-zkT"/>
                     </connections>
                 </viewController>
@@ -209,7 +206,6 @@
         <!--Navigation Controller-->
         <scene sceneID="KuO-NS-yg4">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JZO-Wd-sXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iym-t3-t6D" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wvn-fg-cQe">
@@ -222,6 +218,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RyU-Cx-gLe"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JZO-Wd-sXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="166" y="-99"/>
         </scene>

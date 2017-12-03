@@ -32,6 +32,7 @@ class EuropeQuestionBAnk {
          list.append(Question(countryText: "France", correctAnswer: "Paris" ))
          list.append(Question(countryText: "Georgia", correctAnswer: "Tbilisi" ))
          list.append(Question(countryText: "Germany", correctAnswer: "Berlin" ))
+         list.append(Question(countryText: "Greece", correctAnswer: "Athens" ))
          list.append(Question(countryText: "Hungary", correctAnswer: "Budapest" ))
          list.append(Question(countryText: "Iceland", correctAnswer: "Reykjavik" ))
          list.append(Question(countryText: "Ireland", correctAnswer: "Dublin" ))
